@@ -1,0 +1,122 @@
+.data_start
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __0___0_toLocalPos__ret: %UnityEngineVector3, null
+    __0_pos__param: %UnityEngineVector3, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __0___0_toBoardPos__ret: %UnityEngineVector3, null
+    __1_pos__param: %UnityEngineVector3, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __intnl_SystemSingle_7: %SystemSingle, null
+    __intnl_SystemSingle_8: %SystemSingle, null
+    __intnl_SystemSingle_9: %SystemSingle, null
+    __intnl_SystemSingle_10: %SystemSingle, null
+    __intnl_SystemSingle_11: %SystemSingle, null
+    __intnl_SystemSingle_12: %SystemSingle, null
+    __intnl_SystemSingle_13: %SystemSingle, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# game.Start()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_toLocalPos
+    __0_toLocalPos:
+        PUSH, __const_SystemUInt32_0
+# 
+# game.toLocalPos(UnityEngine.Vector3)
+# 
+        PUSH, __0_pos__param
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_pos__param
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __0_pos__param
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __intnl_SystemSingle_3
+        PUSH, __intnl_SystemSingle_6
+        PUSH, __0___0_toLocalPos__ret
+        EXTERN, "UnityEngineVector3.__ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_toBoardPos
+    __0_toBoardPos:
+        PUSH, __const_SystemUInt32_0
+# 
+# game.toBoardPos(UnityEngine.Vector3)
+# 
+        PUSH, __1_pos__param
+        PUSH, __intnl_SystemSingle_7
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_7
+        PUSH, __intnl_SystemSingle_8
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_8
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_9
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __1_pos__param
+        PUSH, __intnl_SystemSingle_10
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __1_pos__param
+        PUSH, __intnl_SystemSingle_11
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_11
+        PUSH, __intnl_SystemSingle_12
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_12
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_13
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_9
+        PUSH, __intnl_SystemSingle_10
+        PUSH, __intnl_SystemSingle_13
+        PUSH, __0___0_toBoardPos__ret
+        EXTERN, "UnityEngineVector3.__ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end
