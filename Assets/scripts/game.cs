@@ -3,9 +3,13 @@ using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
+using VRC.SDK3.Components;
 
 public class game : UdonSharpBehaviour
 {
+    public GameObject[] whitePieces;
+    public GameObject[] blackPieces;
+
     void Start()
     {
         

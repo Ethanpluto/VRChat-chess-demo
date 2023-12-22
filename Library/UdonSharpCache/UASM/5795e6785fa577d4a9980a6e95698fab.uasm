@@ -1,7 +1,11 @@
 .data_start
+    .export whitePieces
+    .export blackPieces
     __refl_typeid: %SystemInt64, null
     __refl_typename: %SystemString, null
     __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    whitePieces: %UnityEngineGameObjectArray, null
+    blackPieces: %UnityEngineGameObjectArray, null
     __const_SystemUInt32_0: %SystemUInt32, null
     __0___0_toLocalPos__ret: %UnityEngineVector3, null
     __0_pos__param: %UnityEngineVector3, null

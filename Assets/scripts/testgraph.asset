@@ -114,6 +114,12 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|12c77698-b2a2-4a16-a763-d928d077049d
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: Event_OnPickup
+      uid: 6d3d0aff-54ef-478c-8547-4ee3d721c66f
+      position: {x: 731, y: 542}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
     updateOrder: 0
   graphElementData: []
   version: 1.0.0

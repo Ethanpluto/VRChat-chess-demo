@@ -1,0 +1,159 @@
+.data_start
+    .export testblock
+    .export moves
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    testblock: %UnityEngineGameObject, null
+    moves: %SystemObjectArray, null
+    __0___0_toBoardPos__ret: %UnityEngineVector3, null
+    __0_pos__param: %UnityEngineVector3, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0__intnlparam: %UnityEngineGameObject, null
+    __1__intnlparam: %UnityEngineGameObject, null
+    __2__intnlparam: %UnityEngineTransform, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __3__intnlparam: %UnityEngineGameObject, null
+    __4__intnlparam: %UnityEngineGameObject, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __5__intnlparam: %UnityEngineGameObject, null
+    __6__intnlparam: %UnityEngineGameObject, null
+    __const_SystemObject_0: %SystemObject, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __lcl_test_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __lcl_instantiatedObject_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __lcl_objectTransform_UnityEngineTransform_0: %UnityEngineTransform, null
+.data_end
+.code_start
+    .export __0_toBoardPos
+    __0_toBoardPos:
+        PUSH, __const_SystemUInt32_0
+# 
+# rook.toBoardPos(UnityEngine.Vector3)
+# 
+        PUSH, __0_pos__param
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_pos__param
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __0_pos__param
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __intnl_SystemSingle_3
+        PUSH, __intnl_SystemSingle_6
+        PUSH, __0___0_toBoardPos__ret
+        EXTERN, "UnityEngineVector3.__ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPickup
+    _onPickup:
+        PUSH, __const_SystemUInt32_0
+# 
+# rook.OnPickup()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, testblock
+        PUSH, __1__intnlparam
+        COPY
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __2__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.InstantiationShim.Instantiate(UnityEngine.GameObject, UnityEngine.Transform)
+        JUMP, 0x000001A4
+        PUSH, __0__intnlparam
+        PUSH, __lcl_test_UnityEngineGameObject_0
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# rook.Start()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.InstantiationShim.Instantiate(UnityEngine.GameObject, UnityEngine.Transform)
+# 
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __1__intnlparam
+        PUSH, __4__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.InstantiationShim.Instantiate(UnityEngine.GameObject)
+        JUMP, 0x00000250
+        PUSH, __3__intnlparam
+        PUSH, __lcl_instantiatedObject_UnityEngineGameObject_0
+        COPY
+        PUSH, __lcl_instantiatedObject_UnityEngineGameObject_0
+        PUSH, __lcl_objectTransform_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __lcl_objectTransform_UnityEngineTransform_0
+        PUSH, __2__intnlparam
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineTransform.__SetParent__UnityEngineTransform_SystemBoolean__SystemVoid"
+        PUSH, __lcl_instantiatedObject_UnityEngineGameObject_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.InstantiationShim.Instantiate(UnityEngine.GameObject)
+# 
+        PUSH, __4__intnlparam
+        PUSH, __3__intnlparam
+        EXTERN, "VRCInstantiate.__Instantiate__UnityEngineGameObject__UnityEngineGameObject"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.InstantiationShim.Instantiate_Extern(UnityEngine.GameObject)
+# 
+        PUSH, __const_SystemObject_0
+        PUSH, __5__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

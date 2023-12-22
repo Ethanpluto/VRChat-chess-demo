@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-12-07T02:32:21.2204925Z"
+      "LastWriteTime": "2023-12-21T22:21:48.0333819Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -27,7 +27,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-12-07T02:32:23.0748484Z"
+      "LastWriteTime": "2023-12-21T22:21:49.773919Z"
     },
     {
       "FullName": "System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
@@ -64,6 +64,20 @@
       ]
     },
     {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<VRC.Dynamics.CollisionBroadphase_HashGrid/UpdateShapesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "b614216e8f01afa78c6f18b45d27236b",
+      "LinkName": "BFEDD4F5CACCBDB6",
+      "AssemblyDependencyIndices": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        6
+      ]
+    },
+    {
       "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<VRC.Dynamics.CollisionBroadphase_HybridSAP/UpdateShapesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
       "ModuleHash": "3b85a60a5aac1718ba4b6622f61a7776",
@@ -79,20 +93,6 @@
         8,
         0,
         9
-      ]
-    },
-    {
-      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<VRC.Dynamics.CollisionBroadphase_HashGrid/UpdateShapesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "b614216e8f01afa78c6f18b45d27236b",
-      "LinkName": "BFEDD4F5CACCBDB6",
-      "AssemblyDependencyIndices": [
-        2,
-        3,
-        4,
-        1,
-        5,
-        6
       ]
     },
     {
